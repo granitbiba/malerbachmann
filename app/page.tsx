@@ -114,9 +114,17 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2 relative">
               <div className="absolute -inset-4 border-2 border-[#c5a059]/30 rounded-full opacity-50"></div>
-              {/* Placeholder for a family or historical image */}
-              <div className="aspect-square rounded-full overflow-hidden bg-gradient-to-br from-gray-700 to-gray-900 relative group flex items-center justify-center">
-                <div className="text-6xl md:text-8xl font-display text-[#c5a059]/20">MB</div>
+              {/* Family history image */}
+              <div className="aspect-square rounded-full overflow-hidden relative group">
+                <Image
+                  src="/images/family-history.webp"
+                  alt="Maler Bachmann craftsmanship and tradition"
+                  fill
+                  className="object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-90 transition-all duration-700"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  loading="lazy"
+                  quality={75}
+                />
               </div>
             </div>
           </div>
