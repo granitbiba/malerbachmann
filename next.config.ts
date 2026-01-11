@@ -25,6 +25,12 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   experimental: {
     optimizePackageImports: ['react-hook-form'],
+    optimizeCss: true,
+  },
+  modularizeImports: {
+    '@/components/icons': {
+      transform: '@/components/icons',
+    },
   },
 };
 
