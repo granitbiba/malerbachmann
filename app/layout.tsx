@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="de-CH">
       <head>
-        <link rel="preload" href="/images/hero-painter-tiny.webp" as="image" fetchpriority="high" />
+        <link rel="preload" href="/images/hero-painter-tiny.webp" as="image" fetchPriority="high" />
         <link rel="preconnect" href="https://maps.google.com" />
         <link rel="dns-prefetch" href="https://maps.google.com" />
       </head>
