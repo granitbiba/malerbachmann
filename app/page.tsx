@@ -117,10 +117,10 @@ export default function Home() {
               {/* Family history image */}
               <div className="aspect-square rounded-full overflow-hidden relative group">
                 <Image
-                  src="/images/family-history.webp"
+                  src="/images/family-history-centered.webp"
                   alt="Maler Bachmann craftsmanship and tradition"
                   fill
-                  className="object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-90 transition-all duration-700"
+                  className="object-cover object-center grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-90 transition-all duration-700"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   loading="lazy"
                   quality={75}
