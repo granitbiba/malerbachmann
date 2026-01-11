@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, CheckCircle2, Paintbrush, ShieldCheck, Clock } from '@/components/icons';
+import { ArrowRight, CheckCircle2, Paintbrush, ShieldCheck, SprayCan } from '@/components/icons';
 
 export default function Home() {
 
@@ -18,7 +18,7 @@ export default function Home() {
     {
       title: 'Spritzwerk',
       description: 'Perfekte Oberflächenveredelung für Möbel, Türen und Fensterläden.',
-      icon: Clock // Using Clock as placeholder for efficiency/speed, or replace with specific icon if available
+      icon: SprayCan
     }
   ];
 
