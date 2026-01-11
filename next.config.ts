@@ -27,11 +27,6 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['react-hook-form'],
     optimizeCss: true,
   },
-  modularizeImports: {
-    '@/components/icons': {
-      transform: '@/components/icons',
-    },
-  },
 };
 
 export default nextConfig;
